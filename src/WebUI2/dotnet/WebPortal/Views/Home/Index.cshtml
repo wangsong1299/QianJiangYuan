@@ -9,7 +9,7 @@
 @if (ViewData["isAuthorized"] != null && !(bool)ViewData["isAuthorized"])
 {
     <script>
-        alert("You are not an authorized user to this cluster!");
+        alert("You are not an authorized user to this cluster! Please contact the super administrator !");
     </script>
 }
 
@@ -27,6 +27,14 @@
             <div class="carousel-caption" role="option">
                 <p>
                     Welcome to QianJiangYuan! 
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner2.jpg" width="100%" alt="ASP.NET" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    Welcome to QianJiangYuan again! 
                 </p>
             </div>
         </div>
